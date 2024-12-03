@@ -1,0 +1,40 @@
+body{
+    background-color: green;
+}
+
+.hidden{
+    display: none;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    margin-bottom: 5%;
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+}
+
+#count-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 20px;
+    width: 200px;
+    font-weight: bold;
+}
+
+#container{
+display: flex;
+justify-content: center;
+}
+
+#card{
+    max-height: 40vh;
+    width: auto;
+}

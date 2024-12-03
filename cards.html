@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises-Cards</title>
+    <link rel="stylesheet" href="cards.css">
+</head>
+
+<body>
+
+    <div id="button-container">
+        <button id="start-button">Start</button>
+        <button id="pick-button" class="hidden">Pick A Card</button>
+        <button id="restart-button" class="hidden">Start Over</button>
+    </div>
+
+
+    <div id="card-container">
+        <img src="https://kofc14406.org/wp-content/uploads/2018/04/playing-cards-bicycle-rider-back-1_1024x1024.png"
+            alt="card" id="card">
+    </div>
+
+    <div id="count-container">
+        <h3 class="hidden">Remaining: <span id="count">52</span></h3>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js"></script>
+    <script src="cards.js"></script>
+</body>
+
+</html>
